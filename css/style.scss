@@ -1,0 +1,22 @@
+
+#tab{
+    margin: 2rem 0;
+    .tabTop{
+       button{
+        padding: 10px;
+        background-color: green;
+        border: 1px solid #fff;
+        color: red;
+        cursor: pointer;
+       }
+       .tabdown{
+        p{
+            display: none;
+            &.tab-active{
+                display: block;
+            }
+        }
+    }
+    }
+    
+  }

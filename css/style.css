@@ -1,0 +1,20 @@
+#tab {
+  margin: 2rem 0;
+}
+
+#tab .tabTop button {
+  padding: 10px;
+  background-color: green;
+  border: 1px solid #fff;
+  color: red;
+  cursor: pointer;
+}
+
+#tab .tabTop .tabdown p {
+  display: none;
+}
+
+#tab .tabTop .tabdown p.tab-active {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
